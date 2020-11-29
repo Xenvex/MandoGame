@@ -16,8 +16,13 @@ public class PickUpBox : MonoBehaviour
         
     }
 
-    void OnCollisionEnter()
+    void OnTriggerEnter()
     {
-
+        //Gives the item to the player
+        /*
+        GameObject thePlayer = GameObject.Find("Player");
+        PlayerScript playerScript = thePlayer.GetComponent<Player>();
+        playerScript.Item = true;
+        */
     }
 }
