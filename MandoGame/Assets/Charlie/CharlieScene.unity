@@ -526,6 +526,7 @@ GameObject:
   - component: {fileID: 1515472303}
   - component: {fileID: 1515472307}
   - component: {fileID: 1515472306}
+  - component: {fileID: 1515472308}
   m_Layer: 0
   m_Name: Enemy-Charlie
   m_TagString: Enemy
@@ -546,8 +547,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 1515472305}
-  maxBoundary: -10.5
-  minBoundary: -14
+  maxBoundaryX: -10.5
+  minBoundaryX: -14
 --- !u!212 &1515472304
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -660,6 +661,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.33115482, y: 0.52}
   m_EdgeRadius: 0
+--- !u!95 &1515472308
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515472302}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0d6f4bd76ce052d4eaf51f84133af504, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1687707082
 GameObject:
   m_ObjectHideFlags: 0
