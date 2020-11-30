@@ -34,7 +34,7 @@ public class Enemy : MonoBehaviour
         //
         // // Deals with movement within a boundary
         // // TODO: need to figure out boundarys when the player moves
-        Debug.Log(("current position " + enemy.position.x ));
+        //Debug.Log(("current position " + enemy.position.x ));
         if (enemy.position.x < minBoundaryX)
         {
             // flips the enemy and goes in the other direction
