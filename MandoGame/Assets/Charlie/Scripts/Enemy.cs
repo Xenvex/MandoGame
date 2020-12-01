@@ -93,6 +93,7 @@ public class Enemy : MonoBehaviour
         {
             Debug.Log("We hit the player!");
             // We need it to throw a punch. 
+            //enemy.GetComponent<Animator>().SetTrigger("Punch");
         }
     }
 }
