@@ -3,12 +3,12 @@
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
 /MandoGame/[Ll]ibrary/*
-MandoGame/[Tt]emp/
-MandoGame/[Oo]bj/
-MandoGame/[Bb]uild/
-MandoGame/[Bb]uilds/
-MandoGame/[Ll]ogs/
-MandoGame/[Mm]emoryCaptures/
+/MandoGame/[Tt]emp/*
+/MandoGame/[Oo]bj/*
+/MandoGame/[Bb]uild/*
+/MandoGame/[Bb]uilds/*
+/MandoGame/[Ll]ogs/*
+/MandoGame/[Mm]emoryCaptures/*
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
