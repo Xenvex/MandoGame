@@ -17,7 +17,7 @@ public class PickUpBox : MonoBehaviour
         
     }
 
-    void OnTriggerEnter()
+    void OnTriggerEnter2D()
     {
         //Accessing the player script for reasons
         GameObject thePlayer = GameObject.Find("PlayerTest");
@@ -27,6 +27,7 @@ public class PickUpBox : MonoBehaviour
         {
             //Enables Player to shoot
             playerScript.Blaster = true;
+            Debug.Log("Hello!");
         }
         else if (gameObject.name == "Grenade")
         {
